@@ -1,11 +1,7 @@
 import './sass/main.scss';
 import menuCardsTpl from './templates/menu-cards.hbs';
 import menu from './menu.json';
-
-const Theme = {
-  LIGHT: 'light-theme',
-  DARK: 'dark-theme',
-};
+import Theme from './js/theme.js';
 
 const menuRef = document.querySelector('.js-menu');
 const checkboxRef = document.querySelector('#theme-switch-toggle');
